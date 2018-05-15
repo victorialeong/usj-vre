@@ -1,0 +1,592 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        44.289390563964844,
+        28.715305328369141,
+        41.508415222167969
+      ],
+      "min": [
+        -44.293987274169922,
+        15.406750679016113,
+        -39.569618225097656
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 50664,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        0.99998581409454346,
+        0.99976807832717896,
+        0.99557745456695557
+      ],
+      "min": [
+        -0.99998027086257935,
+        -0.99986809492111206,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        1,
+        0.99999916553497314,
+        0.83524549007415771,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99999672174453735,
+        -0.76576298475265503,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        0.97977542877197266,
+        0.98196864128112793
+      ],
+      "min": [
+        0.01519644632935524,
+        0.027409262955188751
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 22560,
+      "max": [
+        4221
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 101328,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        44.289390563964844,
+        28.715305328369141,
+        41.508415222167969
+      ],
+      "min": [
+        -44.293987274169922,
+        15.406750679016113,
+        -39.569618225097656
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 151992,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        0.99998581409454346,
+        0.99976807832717896,
+        0.99557745456695557
+      ],
+      "min": [
+        -0.99998027086257935,
+        -0.99986809492111206,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 67552,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        1,
+        0.99999916553497314,
+        0.83524549007415771,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99999672174453735,
+        -0.76576298475265503,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 33776,
+      "componentType": 5126,
+      "count": 4222,
+      "max": [
+        0.97977542877197266,
+        0.98196864128112793
+      ],
+      "min": [
+        0.01519644632935524,
+        0.027409262955188751
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 90240,
+      "componentType": 5125,
+      "count": 22560,
+      "max": [
+        4221
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "animatedheaven (https://sketchfab.com/animatedheaven)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/48300c595bcc4177835c4868c4850193",
+      "title": "Seashell"
+    },
+    "generator": "Sketchfab-3.19.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 180480,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 67552,
+      "byteOffset": 180480,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 202656,
+      "byteOffset": 248032,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 135104,
+      "byteOffset": 450688,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 585792,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/StingrayPBS1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/StingrayPBS1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/StingrayPBS1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "StingrayPBS1",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "shell_upper_StingrayPBS1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "shell_upper1_StingrayPBS1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "sea_shell_fbx.fbx"
+    },
+    {
+      "children": [
+        4,
+        7,
+        9,
+        12
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        53.331881541989731,
+        42.561009406237112,
+        -14.38500495658424,
+        0,
+        -35.816157011268565,
+        53.757922760780104,
+        26.266825378749907,
+        0,
+        27.121408264006405,
+        -12.700539234842694,
+        62.974463038670592,
+        0,
+        0,
+        245.67227172851562,
+        114.20770263671875,
+        1
+      ],
+      "name": "directionalLight1"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.45852444551651594,
+        -0.77051324277567179,
+        0.44279191001088797,
+        0,
+        0.5542608422159645,
+        0.63742398974883163,
+        0.5352434736442202,
+        0,
+        -0.69465837045976886,
+        2.7755575615628914e-16,
+        0.71933980033790612,
+        0,
+        -334.7176513671875,
+        552.57513427734375,
+        -327.3038330078125,
+        1
+      ],
+      "name": "camera1"
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        62.866841733472967,
+        -6.9031978797085047,
+        -29.372836900436276,
+        0,
+        -17.16888076297284,
+        47.63819222738524,
+        -47.942566188524943,
+        0,
+        24.812239356673636,
+        50.453998636657751,
+        41.24808211016429,
+        0,
+        0,
+        125.2786865234375,
+        -40.836318969726562,
+        1
+      ],
+      "name": "directionalLight2"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        13
+      ],
+      "name": "group2"
+    },
+    {
+      "children": [
+        14
+      ],
+      "name": "sea_shell"
+    },
+    {
+      "children": [
+        15,
+        17
+      ],
+      "matrix": [
+        -0.90928294509040164,
+        1.1135504482242391e-16,
+        0.41617847826110099,
+        0,
+        1.7343184404238272e-16,
+        1,
+        1.1135504482242391e-16,
+        0,
+        -0.41617847826110099,
+        1.7343184404238272e-16,
+        -0.90928294509040164,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "group1"
+    },
+    {
+      "children": [
+        16
+      ],
+      "matrix": [
+        1,
+        8.2263465979695361e-33,
+        0,
+        0,
+        8.2263465979695361e-33,
+        -1,
+        1.2246467991473532e-16,
+        0,
+        1.0074369029880111e-48,
+        -1.2246467991473532e-16,
+        -1,
+        0,
+        0,
+        29.206731796264648,
+        1.9387969970703125,
+        1
+      ],
+      "name": "shell_upper"
+    },
+    {
+      "mesh": 0,
+      "name": "shell_upper_StingrayPBS1_0"
+    },
+    {
+      "children": [
+        18
+      ],
+      "matrix": [
+        -0.99998645869859293,
+        1.2246063538223773e-16,
+        0.0052040771945828217,
+        0,
+        -0.0007043918304527135,
+        0.99079732441846113,
+        -0.13535200684647336,
+        0,
+        -0.0051561857604598086,
+        -0.13535383971361353,
+        -0.99078390773325808,
+        0,
+        0.14791026711463928,
+        -1.6060686111450195,
+        4.7974061965942383,
+        1
+      ],
+      "name": "shell_upper1"
+    },
+    {
+      "mesh": 1,
+      "name": "shell_upper1_StingrayPBS1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
