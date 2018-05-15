@@ -1,0 +1,280 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1832,
+      "max": [
+        1.0055286884307861,
+        1.0049329996109009,
+        0.35593542456626892
+      ],
+      "min": [
+        -1.0049750804901123,
+        -1.0052990913391113,
+        -0.42284980416297913
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21984,
+      "componentType": 5126,
+      "count": 1832,
+      "max": [
+        0.9999992847442627,
+        0.99999892711639404,
+        1
+      ],
+      "min": [
+        -0.99999415874481201,
+        -0.9999997615814209,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1832,
+      "max": [
+        0.98020541667938232,
+        0.99940639734268188,
+        0.99999433755874634,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.99998664855957031,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1832,
+      "max": [
+        0.95337074995040894,
+        0.72075271606445312
+      ],
+      "min": [
+        0.81616050004959106,
+        0.36694175004959106
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3480,
+      "max": [
+        1831
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Aresdex (https://sketchfab.com/Aresdex)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/4d76886aad42496fa595778613622b7e",
+      "title": "Seabottom - Greek Island"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 13920,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14656,
+      "byteOffset": 13920,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43968,
+      "byteOffset": 28576,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29312,
+      "byteOffset": 72544,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 101856,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95770514949999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fondale_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "SeaBottom.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        4388.255859375,
+        0,
+        0,
+        0,
+        0,
+        -0.00071493762595456001,
+        -4388.2558593749418,
+        0,
+        0,
+        4388.2558593749418,
+        -0.00071493762595456001,
+        0,
+        447.14083862304688,
+        -2768.5029296875,
+        931.2335205078125,
+        1
+      ],
+      "name": "Fondale"
+    },
+    {
+      "mesh": 0,
+      "name": "Fondale_Material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
